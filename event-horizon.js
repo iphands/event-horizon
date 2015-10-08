@@ -17,6 +17,7 @@ module.exports.instance = function (conf) {
                 }
             } else {
                 startTime = new Date().getTime();
+                counter   = -1;
                 func();
             }
         }
