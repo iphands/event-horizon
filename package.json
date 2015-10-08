@@ -1,0 +1,17 @@
+{
+  "name": "event-horizon",
+  "version": "0.0.0",
+  "description": "Stay below a certain number of things per second",
+  "main": "tamed.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "throttle"
+  ],
+  "author": "iphands@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
