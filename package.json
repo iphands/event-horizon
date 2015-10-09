@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Stay below a certain number of things per second",
   "main": "event-horizon.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iphands/event-horizon.git"
+  },
   "scripts": {
     "test": "gulp test"
   },
