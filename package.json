@@ -8,7 +8,7 @@
     "url": "https://github.com/iphands/event-horizon.git"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha test"
   },
   "keywords": [
     "throttle"
