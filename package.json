@@ -1,6 +1,6 @@
 {
   "name": "event-horizon",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Stay below a certain number of things per second",
   "main": "event-horizon.js",
   "repository": {
