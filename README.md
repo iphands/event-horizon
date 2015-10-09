@@ -1,5 +1,7 @@
 # event-horizon
 
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] 
+
 Eats things that happen too many times per time window.
 A time window in this case is a sliding window.
 
