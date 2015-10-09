@@ -13,7 +13,7 @@ module.exports.instance = function (conf) {
             index = 0;
 
         for (index = 0; index < max; index += 1) {
-            if (time - timeArray[index] < conf.max) {
+            if ((time - timeArray[index]) < conf.window) {
                 break; // we reached the window again
             }
         }
@@ -22,7 +22,7 @@ module.exports.instance = function (conf) {
     }
 
     return {
-        run: function (func, eatenCB) {
+        run: function (func, eat) {
             var time = new Date().getTime();
 
             if (timeArray.length === 0) {
@@ -34,7 +34,7 @@ module.exports.instance = function (conf) {
             timeArray = gc(time);
 
             if (timeArray.length >= conf.max) {
-                eatenCB();
+                eat();
                 return;
             }
 

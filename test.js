@@ -29,7 +29,7 @@ describe('Event-Horizon', function () {
     });
 
     it('should use a sliding window', function (done) {
-        var t     = horizon.instance({ window: 20, max: 10 }),
+        var t     = horizon.instance({ window: 100, max: 10 }),
             run   = 0,
             eaten = 0,
             i     = 0;
@@ -38,18 +38,18 @@ describe('Event-Horizon', function () {
 
         setTimeout(function () {
             loop(100, t, i, function () {eaten += 1; }, function () { run += 1; });
-        }, 18);
+        }, 70);
 
         setTimeout(function () {
             loop(100, t, i, function () {eaten += 1; }, function () { run += 1; });
-            assert.equal(10, run);
+            assert.equal(10,  run);
             assert.equal(190, eaten);
             done();
-        }, 21);
+        }, 105);
     });
 
     it('should reset when I go over window', function (done) {
-        var t     = horizon.instance({ window: 10, max: 10 }),
+        var t     = horizon.instance({ window: 100, max: 10 }),
             run   = 0,
             eaten = 0,
             i     = 0;
@@ -64,7 +64,7 @@ describe('Event-Horizon', function () {
                 assert.equal(30, run);
                 assert.equal(270, eaten);
                 done();
-            }, 11);
-        }, 11);
+            }, 102);
+        }, 102);
     });
 });
