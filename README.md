@@ -1,8 +1,7 @@
 # event-horizon
 
 Eats things that happen too many times per time window.
-A time window in this case is an interval window, not a sliding window.
-
+A time window in this case is a sliding window.
 
 # Example
 
