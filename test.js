@@ -1,4 +1,4 @@
-/*global require, describe, it, console*/
+/*global require, describe, it, console, setTimeout*/
 'use strict';
 
 var assert  = require('assert'),

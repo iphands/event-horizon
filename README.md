@@ -1,6 +1,7 @@
 # event-horizon
 
-Eats things that happen too many times per time window. A time window in this case a clock based window, not a scrolling span.
+Eats things that happen too many times per time window.
+A time window in this case is an interval window, not a sliding window.
 
 
 # Example
