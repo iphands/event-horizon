@@ -1,3 +1,6 @@
+<p align="center"><img height="211px" src="https://cloud.githubusercontent.com/assets/129737/10387928/6992de24-6e33-11e5-8d38-a9bd5dd7778f.png"></p>
+
+
 # event-horizon
 
 [npm-url]: https://npmjs.org/package/event-horizon
