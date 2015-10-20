@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/129737/10388170/a2274fd4-6e35-11e5-924d-fe1188467564.png"></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/129737/10611092/8dc5c7dc-7718-11e5-9106-ee5bfc556f61.png"></p>
 
 
 # event-horizon
